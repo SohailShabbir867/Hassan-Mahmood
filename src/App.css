@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Default top padding to account for fixed navbar */
+.main-content {
+  padding-top: 4rem; /* Adjust based on your navbar height */
+}
+
+/* Mobile-specific padding (more spacing if needed when menu is expanded) */
+@media (max-width: 768px) {
+  .main-content {
+    padding-top: 6rem; /* Extra space on small devices */
+  }
+}
+/* global.css */
+html {
+  scroll-behavior: smooth;
+}
+
